@@ -18,7 +18,7 @@ class Home extends React.Component {
     render(){
         return(
             <>
-                <Router basename='/project2'>
+                <Router basename='/Project2-Weather'>
                     <div className='navBar'>
                         <div>
                             <Link to='/'></Link>
