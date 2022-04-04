@@ -21,11 +21,11 @@ class Home extends React.Component {
                 <Router basename='/Project2-Weather'>
                     <div className='navBar'>
                         <div>
-                            <NavLink className='link' to ='/2hrs'>2 Hours Nowcast</NavLink>
-                            <NavLink className='link'to ='/24hrs'>24 Hours Forecast</NavLink>
-                            <NavLink className='link'to ='/4days'>4 Days Forecast</NavLink>
-                            <NavLink className='link'to ='/PSI'>PSI</NavLink>
-                            <NavLink className='link'to ='/UV'>UV</NavLink>
+                            <Link className='link' to ='/2hrs'>2 Hours Nowcast</Link>
+                            <Link className='link'to ='/24hrs'>24 Hours Forecast</Link>
+                            <Link className='link'to ='/4days'>4 Days Forecast</Link>
+                            <Link className='link'to ='/PSI'>PSI</Link>
+                            <Link className='link'to ='/UV'>UV</Link>
                             <Link to='/'></Link>
                         </div>
                     </div>
