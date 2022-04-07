@@ -1,7 +1,7 @@
 import React from 'react';
 import {useState} from "react";
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
     Link,
