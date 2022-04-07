@@ -1,7 +1,7 @@
 import React from 'react';
 import {useState} from "react";
 import {
-    HashRouter as Router,
+    BrowserRouter as Router,
     Switch,
     Route,
     Link,
@@ -51,7 +51,7 @@ function Home() {
 
     return (
         <>
-            <Router basename = '/Group4-Project1'>
+            <Router basename = '/Project2-Weather'>
             <div className='navBar'>
                 <div>
                     <NavLink  className='link' to ='/2hrs'>2 Hrs</NavLink>
